@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+scikit-learn
+pandas
+numpy
+joblib
+requests
+beautifulsoup4
+tldextract
+lxml
+python-multipart

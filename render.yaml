@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: phishing-url-detector
+    env: docker
+    region: oregon
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
