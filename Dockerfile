@@ -22,7 +22,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY app/         ./app/
 COPY data/        ./data/
-COPY models/      ./models/
 COPY train.py     .
 
 # Train the model during the build process
