@@ -42,4 +42,3 @@ Thumbs.db
 # Project Specific
 models/*.joblib
 models/feature_columns.joblib
-data/dataset.csv
