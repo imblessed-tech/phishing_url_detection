@@ -2,8 +2,6 @@
 
 > An ML-powered REST API that detects phishing URLs using structural URL analysis and live page content inspection — deployed as a production-style FastAPI service.
 
-Part of the **"AI for Digital Trust"** portfolio series.
-
 ---
 
 ## What This Project Proves
