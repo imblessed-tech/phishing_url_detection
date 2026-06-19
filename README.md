@@ -1,4 +1,4 @@
-# 🛡️ Phishing URL Detector
+# Phishing URL Detector
 
 > An ML-powered REST API that detects phishing URLs using structural URL analysis and live page content inspection — deployed as a production-style FastAPI service.
 
@@ -6,7 +6,7 @@ Part of the **"AI for Digital Trust"** portfolio series.
 
 ---
 
-## 🎯 What This Project Proves
+## What This Project Proves
 
 Most data scientists can train a model in a notebook. This project shows you can:
 
@@ -17,7 +17,7 @@ Most data scientists can train a model in a notebook. This project shows you can
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 Phishing URLs leave structural fingerprints. This model learns those fingerprints
 across two layers of features:
@@ -48,7 +48,7 @@ the API falls back to Layer 1 features only and flags this in the response.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** [Mendeley Data — Web Page Phishing Detection](https://data.mendeley.com/datasets/c2gw7fy2j4/3)
 - **Size:** 11,430 URLs (5,715 phishing + 5,715 legitimate) — perfectly balanced
@@ -57,7 +57,7 @@ the API falls back to Layer 1 features only and flags this in the response.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone & Install
 
@@ -103,7 +103,7 @@ Visit: http://localhost:8000/docs
 
 ---
 
-## 🐳 Docker
+## Docker
 
 ### Build & Run
 
@@ -120,7 +120,7 @@ docker-compose up --build
 
 ---
 
-## 🌐 API Reference
+## API Reference
 
 ### `POST /predict`
 
@@ -176,7 +176,7 @@ Returns all 80 features grouped by layer with descriptions.
 
 ---
 
-## ☁️ Deploy Free on Render.com
+## Deploy Free on Render.com
 
 1. Push this repo to GitHub
 2. Go to [render.com](https://render.com) → New → Web Service
@@ -186,7 +186,7 @@ Returns all 80 features grouped by layer with descriptions.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 phishing-url-detector/
@@ -213,7 +213,7 @@ phishing-url-detector/
 
 ---
 
-## 🔬 Model Performance
+## Model Performance
 
 | Metric | Score |
 |---|---|
@@ -230,7 +230,7 @@ learns these feature interactions through its ensemble of decision trees.
 
 ---
 
-## 🧩 Portfolio Context
+## Portfolio Context
 
 This is **Project 1** in the "AI for Digital Trust" series:
 
